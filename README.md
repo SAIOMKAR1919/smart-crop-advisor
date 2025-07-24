@@ -3,7 +3,7 @@
 **Smart Crop Advisor** is a voice-enabled, data-driven crop and fertilizer recommendation system designed to support small and rural farmers. It suggests the best crop to grow based on soil nutrients (NPK), pH, temperature, humidity, and rainfall. The project also includes a chatbot assistant and English voice input/output to guide users simply and interactively.
 
 ## 🔗 Live Demo
-Visit: [Smart Crop Advisor GitHub Pages](https://saiomkar1919.github.io/smart-crop-advisor/)
+Visit: [[Smart Crop Advisor GitHub Pages](https://github.com/SAIOMKAR1919/smart-crop-advisor.git)
 
 ---
 

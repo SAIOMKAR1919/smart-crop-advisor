@@ -1,0 +1,199 @@
+/* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to right, #f5f5dc, #e6ffe6);
+  color: #2e2e2e;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background: #4caf50;
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-in-out;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  animation: slideDown 0.8s ease-out;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+/* Section Styling */
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.8s ease;
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: translateY(-4px);
+}
+
+/* Input Styles */
+input[type="number"],
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  padding: 12px 24px;
+  background: #ff9800;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 12px rgba(255, 152, 0, 0.4);
+}
+
+button:hover {
+  background: #fb8c00;
+  transform: scale(1.05);
+}
+
+/* Voice & Language Controls */
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.controls button {
+  flex: 1;
+}
+
+/* Chatbot Styles */
+.chat-container {
+  background: #f9f9f9;
+  border: 2px solid #d9d9d9;
+  border-radius: 12px;
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.chat-container .message {
+  margin-bottom: 12px;
+}
+
+.user {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.bot {
+  color: #1e88e5;
+}
+
+#chat-input {
+  width: calc(100% - 90px);
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+#send-btn {
+  background: #4caf50;
+  margin-left: 10px;
+}
+
+#send-btn:hover {
+  background: #43a047;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  input, button, select {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+
+
+
+
+

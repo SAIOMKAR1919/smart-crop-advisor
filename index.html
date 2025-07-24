@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Crop Advisory</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header><h1>🌾 Krishi Sahayak</h1></header>
+
+  <section class="advisor-section">
+    <form id="input-form">
+      <div class="input-grid">
+        <input name="N" placeholder="Nitrogen (N)" required />
+        <input name="P" placeholder="Phosphorus (P)" required />
+        <input name="K" placeholder="Potassium (K)" required />
+        <input name="pH" placeholder="Soil pH" required />
+        <input name="temperature" placeholder="Temperature (°C)" required />
+        <input name="humidity" placeholder="Humidity (%)" required />
+        <input name="rainfall" placeholder="Rainfall (mm)" required />
+      </div>
+      <button type="submit">🚜 Recommend Crop</button>
+      <button type="button" onclick="startListening()">🎤 Speak</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Recommended Crop: <span id="crop-name"></span></h2>
+      <div id="fertilizer-tips"></div>
+    </div>
+  </section>
+
+  <section class="chatbot">
+    <h2>🗣️ Ask Your Assistant</h2>
+    <div class="chat-box" id="chat-box"></div>
+    <div class="chat-controls">
+      <input type="text" id="chat-input" placeholder="Type or ask your question..."/>
+      <button onclick="handleChat()" class="send-btn">Send</button>
+    </div>
+  </section>
+
+  <footer>© 2025 Krishi Sahayak • Rural Empowerment</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

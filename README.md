@@ -26,8 +26,5 @@ Visit: [[Smart Crop Advisor GitHub Pages](https://github.com/SAIOMKAR1919/smart-
 ├── style.css          # Styling for UI
 ├── script.js          # JavaScript logic for crop prediction, chatbot, voice input/output
 
-Team(SC2)_10
-1)Sai Omkar Nath Padhy(24CSEAIML034)
-2)Pratyush Ranjan Behera(24CSEAIML155)
-3)Somesh Gajendra(24CSEAIML207)
-4)Preetam Panda(24CSEAIML104)
+
+Sai Omkar Nath Padhy(24CSEAIML034)

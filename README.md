@@ -11,7 +11,7 @@ Visit: [[Smart Crop Advisor GitHub Pages](https://github.com/SAIOMKAR1919/smart-
 
 - ✅ **Crop Recommendation** based on N, P, K, pH, temperature, humidity, and rainfall
 - ✅ **Fertilizer Suggestions** for nutrient deficiencies
-- ✅ **Voice Input Support** (🎤 English)
+- ✅ **Voice Input Support** ( English)
 - ✅ **Text-to-Speech Output**
 - ✅ **Chatbot Assistant** for farming queries
 - ✅ Simple & farmer-friendly UI
@@ -19,7 +19,7 @@ Visit: [[Smart Crop Advisor GitHub Pages](https://github.com/SAIOMKAR1919/smart-
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 ├── index.html         # Main HTML page
